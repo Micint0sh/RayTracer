@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RayTracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracer">
+				<Option output="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/RayTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTracer/fast">
+				<Option output="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/RayTracer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michael/Documents/Projects/RayTracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 RayTracer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/BRDF.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Camera.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Camera.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Color.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Film.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Film.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Image.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Intersection.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/LocalGeo.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Normal.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Normal.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/PPMImage.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/PPMImage.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point2D.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point2D.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point3D.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point3D.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitive.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Ray.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Ray.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/RayTracer.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/RayTracer.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sample.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sampler.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Scene.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Scene.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sphere.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sphere.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Vector.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Vector.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/main.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

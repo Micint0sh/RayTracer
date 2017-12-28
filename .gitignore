@@ -1,0 +1,5 @@
+#directories
+make-build-debug/
+
+.DS_Store
+.idea
