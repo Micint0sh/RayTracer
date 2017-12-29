@@ -2,7 +2,7 @@
 #define INTERSECTION_HPP
 
 #include "LocalGeo.hpp"
-#include "Primitive.hpp"
+#include "../Primitives/Primitive.hpp"
 
 class Primitive;
 

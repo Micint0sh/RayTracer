@@ -43,15 +43,21 @@ void Scene::newObject(Primitive* object) {
     objects.push_back(object);
 }
 
+void Scene::newLight(Light *light) {
+    lights.push_back(light);
+}
+
 void Scene::render() {
     //Loop through every pixel
     for(int i = 0; i < imageWidth; i++) {
         for (int j = 0; j < imageHeight; j++) {
             Sample sample = sampler.getSample(i,j);
             Ray cameraRay = camera->generateCameraRay(sample);
-            Color pixelColor = rayTracer->trace(cameraRay,1000,objects);
+            Color pixelColor = rayTracer->trace(cameraRay,1000,objects,lights);
             film->commit(sample,pixelColor);
         }
     }
     film->writeImage();
 }
+
+

@@ -1,15 +1,16 @@
 #include "Sphere.hpp"
-#include "Vector.hpp"
-#include "Point3D.hpp"
-#include "Normal.hpp"
+#include "../Core-Dependencies/Vector.hpp"
+#include "../Core-Dependencies/Point3D.hpp"
+#include "../Core-Dependencies/Normal.hpp"
 #include <cmath>
 
 using namespace std;
 
 //Constructor
-Sphere::Sphere(Point3D& cent, double rad) {
+Sphere::Sphere(Point3D& cent, double rad, Material* mat) {
     center = cent;
     radius = rad;
+    material = mat;
 }
 
 bool Sphere::intersect(const Ray& ray, double& tValue, Intersection* in) {
@@ -32,6 +33,8 @@ bool Sphere::intersect(const Ray& ray, double& tValue, Intersection* in) {
         return true;
     }
 }
+
+
 
 //bool Sphere::getBRDF(LocalGeo& local, BRDF* brdf) {
 //

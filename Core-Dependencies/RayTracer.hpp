@@ -3,14 +3,14 @@
 
 #include "Color.hpp"
 #include "Ray.hpp"
-#include "Primitive.hpp"
+#include "../Primitives/Primitive.hpp"
 #include <vector>
 
 using namespace std;
 
 class RayTracer {
 public:
-    Color trace(const Ray& ray, double depth, vector<Primitive*>& objects);
+    Color trace(const Ray& ray, double depth, vector<Primitive*>& objects, vector<Light*>& lights);
 };
 
 #endif /* RAYTRACER_HPP */

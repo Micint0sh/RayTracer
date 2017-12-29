@@ -2,21 +2,20 @@
 #define SPHERE_HPP
 
 #include "Primitive.hpp"
-#include "Normal.hpp"
+#include "../Core-Dependencies/Normal.hpp"
+#include "../Materials/Material.hpp"
 
 class Sphere : public Primitive {
     
 private:
     Point3D center;
-    double radius;
-    
+    double radius = 0;
 public:
     //Constructor
-    Sphere(Point3D& cent ,double rad);
+    Sphere(Point3D& cent ,double rad, Material* mat);
     
     //Implementation of Primitive features
     bool intersect(const Ray& ray, double& tValue, Intersection* in);
-    //bool getBRDF(LocalGeo& local, BRDF* brdf);
 };
 
 #endif /* SPHERE_HPP */

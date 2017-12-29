@@ -123,302 +123,356 @@ RayTracer/fast:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/build
 .PHONY : RayTracer/fast
 
-Camera.o: Camera.cpp.o
+Core-Dependencies/Camera.o: Core-Dependencies/Camera.cpp.o
 
-.PHONY : Camera.o
-
-# target to build an object file
-Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Camera.cpp.o
-.PHONY : Camera.cpp.o
-
-Camera.i: Camera.cpp.i
-
-.PHONY : Camera.i
-
-# target to preprocess a source file
-Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Camera.cpp.i
-.PHONY : Camera.cpp.i
-
-Camera.s: Camera.cpp.s
-
-.PHONY : Camera.s
-
-# target to generate assembly for a file
-Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Camera.cpp.s
-.PHONY : Camera.cpp.s
-
-Film.o: Film.cpp.o
-
-.PHONY : Film.o
+.PHONY : Core-Dependencies/Camera.o
 
 # target to build an object file
-Film.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Film.cpp.o
-.PHONY : Film.cpp.o
+Core-Dependencies/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Camera.cpp.o
+.PHONY : Core-Dependencies/Camera.cpp.o
 
-Film.i: Film.cpp.i
+Core-Dependencies/Camera.i: Core-Dependencies/Camera.cpp.i
 
-.PHONY : Film.i
+.PHONY : Core-Dependencies/Camera.i
 
 # target to preprocess a source file
-Film.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Film.cpp.i
-.PHONY : Film.cpp.i
+Core-Dependencies/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Camera.cpp.i
+.PHONY : Core-Dependencies/Camera.cpp.i
 
-Film.s: Film.cpp.s
+Core-Dependencies/Camera.s: Core-Dependencies/Camera.cpp.s
 
-.PHONY : Film.s
+.PHONY : Core-Dependencies/Camera.s
 
 # target to generate assembly for a file
-Film.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Film.cpp.s
-.PHONY : Film.cpp.s
+Core-Dependencies/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Camera.cpp.s
+.PHONY : Core-Dependencies/Camera.cpp.s
 
-Normal.o: Normal.cpp.o
+Core-Dependencies/Film.o: Core-Dependencies/Film.cpp.o
 
-.PHONY : Normal.o
+.PHONY : Core-Dependencies/Film.o
 
 # target to build an object file
-Normal.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Normal.cpp.o
-.PHONY : Normal.cpp.o
+Core-Dependencies/Film.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Film.cpp.o
+.PHONY : Core-Dependencies/Film.cpp.o
 
-Normal.i: Normal.cpp.i
+Core-Dependencies/Film.i: Core-Dependencies/Film.cpp.i
 
-.PHONY : Normal.i
+.PHONY : Core-Dependencies/Film.i
 
 # target to preprocess a source file
-Normal.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Normal.cpp.i
-.PHONY : Normal.cpp.i
+Core-Dependencies/Film.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Film.cpp.i
+.PHONY : Core-Dependencies/Film.cpp.i
 
-Normal.s: Normal.cpp.s
+Core-Dependencies/Film.s: Core-Dependencies/Film.cpp.s
 
-.PHONY : Normal.s
+.PHONY : Core-Dependencies/Film.s
 
 # target to generate assembly for a file
-Normal.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Normal.cpp.s
-.PHONY : Normal.cpp.s
+Core-Dependencies/Film.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Film.cpp.s
+.PHONY : Core-Dependencies/Film.cpp.s
 
-PPMImage.o: PPMImage.cpp.o
+Core-Dependencies/Normal.o: Core-Dependencies/Normal.cpp.o
 
-.PHONY : PPMImage.o
+.PHONY : Core-Dependencies/Normal.o
 
 # target to build an object file
-PPMImage.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/PPMImage.cpp.o
-.PHONY : PPMImage.cpp.o
+Core-Dependencies/Normal.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Normal.cpp.o
+.PHONY : Core-Dependencies/Normal.cpp.o
 
-PPMImage.i: PPMImage.cpp.i
+Core-Dependencies/Normal.i: Core-Dependencies/Normal.cpp.i
 
-.PHONY : PPMImage.i
+.PHONY : Core-Dependencies/Normal.i
 
 # target to preprocess a source file
-PPMImage.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/PPMImage.cpp.i
-.PHONY : PPMImage.cpp.i
+Core-Dependencies/Normal.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Normal.cpp.i
+.PHONY : Core-Dependencies/Normal.cpp.i
 
-PPMImage.s: PPMImage.cpp.s
+Core-Dependencies/Normal.s: Core-Dependencies/Normal.cpp.s
 
-.PHONY : PPMImage.s
+.PHONY : Core-Dependencies/Normal.s
 
 # target to generate assembly for a file
-PPMImage.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/PPMImage.cpp.s
-.PHONY : PPMImage.cpp.s
+Core-Dependencies/Normal.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Normal.cpp.s
+.PHONY : Core-Dependencies/Normal.cpp.s
 
-Point2D.o: Point2D.cpp.o
+Core-Dependencies/PPMImage.o: Core-Dependencies/PPMImage.cpp.o
 
-.PHONY : Point2D.o
+.PHONY : Core-Dependencies/PPMImage.o
 
 # target to build an object file
-Point2D.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Point2D.cpp.o
-.PHONY : Point2D.cpp.o
+Core-Dependencies/PPMImage.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/PPMImage.cpp.o
+.PHONY : Core-Dependencies/PPMImage.cpp.o
 
-Point2D.i: Point2D.cpp.i
+Core-Dependencies/PPMImage.i: Core-Dependencies/PPMImage.cpp.i
 
-.PHONY : Point2D.i
+.PHONY : Core-Dependencies/PPMImage.i
 
 # target to preprocess a source file
-Point2D.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Point2D.cpp.i
-.PHONY : Point2D.cpp.i
+Core-Dependencies/PPMImage.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/PPMImage.cpp.i
+.PHONY : Core-Dependencies/PPMImage.cpp.i
 
-Point2D.s: Point2D.cpp.s
+Core-Dependencies/PPMImage.s: Core-Dependencies/PPMImage.cpp.s
 
-.PHONY : Point2D.s
+.PHONY : Core-Dependencies/PPMImage.s
 
 # target to generate assembly for a file
-Point2D.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Point2D.cpp.s
-.PHONY : Point2D.cpp.s
+Core-Dependencies/PPMImage.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/PPMImage.cpp.s
+.PHONY : Core-Dependencies/PPMImage.cpp.s
 
-Point3D.o: Point3D.cpp.o
+Core-Dependencies/Point2D.o: Core-Dependencies/Point2D.cpp.o
 
-.PHONY : Point3D.o
+.PHONY : Core-Dependencies/Point2D.o
 
 # target to build an object file
-Point3D.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Point3D.cpp.o
-.PHONY : Point3D.cpp.o
+Core-Dependencies/Point2D.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Point2D.cpp.o
+.PHONY : Core-Dependencies/Point2D.cpp.o
 
-Point3D.i: Point3D.cpp.i
+Core-Dependencies/Point2D.i: Core-Dependencies/Point2D.cpp.i
 
-.PHONY : Point3D.i
+.PHONY : Core-Dependencies/Point2D.i
 
 # target to preprocess a source file
-Point3D.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Point3D.cpp.i
-.PHONY : Point3D.cpp.i
+Core-Dependencies/Point2D.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Point2D.cpp.i
+.PHONY : Core-Dependencies/Point2D.cpp.i
 
-Point3D.s: Point3D.cpp.s
+Core-Dependencies/Point2D.s: Core-Dependencies/Point2D.cpp.s
 
-.PHONY : Point3D.s
+.PHONY : Core-Dependencies/Point2D.s
 
 # target to generate assembly for a file
-Point3D.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Point3D.cpp.s
-.PHONY : Point3D.cpp.s
+Core-Dependencies/Point2D.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Point2D.cpp.s
+.PHONY : Core-Dependencies/Point2D.cpp.s
 
-Ray.o: Ray.cpp.o
+Core-Dependencies/Point3D.o: Core-Dependencies/Point3D.cpp.o
 
-.PHONY : Ray.o
+.PHONY : Core-Dependencies/Point3D.o
 
 # target to build an object file
-Ray.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Ray.cpp.o
-.PHONY : Ray.cpp.o
+Core-Dependencies/Point3D.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Point3D.cpp.o
+.PHONY : Core-Dependencies/Point3D.cpp.o
 
-Ray.i: Ray.cpp.i
+Core-Dependencies/Point3D.i: Core-Dependencies/Point3D.cpp.i
 
-.PHONY : Ray.i
+.PHONY : Core-Dependencies/Point3D.i
 
 # target to preprocess a source file
-Ray.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Ray.cpp.i
-.PHONY : Ray.cpp.i
+Core-Dependencies/Point3D.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Point3D.cpp.i
+.PHONY : Core-Dependencies/Point3D.cpp.i
 
-Ray.s: Ray.cpp.s
+Core-Dependencies/Point3D.s: Core-Dependencies/Point3D.cpp.s
 
-.PHONY : Ray.s
+.PHONY : Core-Dependencies/Point3D.s
 
 # target to generate assembly for a file
-Ray.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Ray.cpp.s
-.PHONY : Ray.cpp.s
+Core-Dependencies/Point3D.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Point3D.cpp.s
+.PHONY : Core-Dependencies/Point3D.cpp.s
 
-RayTracer.o: RayTracer.cpp.o
+Core-Dependencies/Ray.o: Core-Dependencies/Ray.cpp.o
 
-.PHONY : RayTracer.o
+.PHONY : Core-Dependencies/Ray.o
 
 # target to build an object file
-RayTracer.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/RayTracer.cpp.o
-.PHONY : RayTracer.cpp.o
+Core-Dependencies/Ray.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Ray.cpp.o
+.PHONY : Core-Dependencies/Ray.cpp.o
 
-RayTracer.i: RayTracer.cpp.i
+Core-Dependencies/Ray.i: Core-Dependencies/Ray.cpp.i
 
-.PHONY : RayTracer.i
+.PHONY : Core-Dependencies/Ray.i
 
 # target to preprocess a source file
-RayTracer.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/RayTracer.cpp.i
-.PHONY : RayTracer.cpp.i
+Core-Dependencies/Ray.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Ray.cpp.i
+.PHONY : Core-Dependencies/Ray.cpp.i
 
-RayTracer.s: RayTracer.cpp.s
+Core-Dependencies/Ray.s: Core-Dependencies/Ray.cpp.s
 
-.PHONY : RayTracer.s
+.PHONY : Core-Dependencies/Ray.s
 
 # target to generate assembly for a file
-RayTracer.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/RayTracer.cpp.s
-.PHONY : RayTracer.cpp.s
+Core-Dependencies/Ray.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Ray.cpp.s
+.PHONY : Core-Dependencies/Ray.cpp.s
 
-Scene.o: Scene.cpp.o
+Core-Dependencies/RayTracer.o: Core-Dependencies/RayTracer.cpp.o
 
-.PHONY : Scene.o
+.PHONY : Core-Dependencies/RayTracer.o
 
 # target to build an object file
-Scene.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Scene.cpp.o
-.PHONY : Scene.cpp.o
+Core-Dependencies/RayTracer.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/RayTracer.cpp.o
+.PHONY : Core-Dependencies/RayTracer.cpp.o
 
-Scene.i: Scene.cpp.i
+Core-Dependencies/RayTracer.i: Core-Dependencies/RayTracer.cpp.i
 
-.PHONY : Scene.i
+.PHONY : Core-Dependencies/RayTracer.i
 
 # target to preprocess a source file
-Scene.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Scene.cpp.i
-.PHONY : Scene.cpp.i
+Core-Dependencies/RayTracer.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/RayTracer.cpp.i
+.PHONY : Core-Dependencies/RayTracer.cpp.i
 
-Scene.s: Scene.cpp.s
+Core-Dependencies/RayTracer.s: Core-Dependencies/RayTracer.cpp.s
 
-.PHONY : Scene.s
+.PHONY : Core-Dependencies/RayTracer.s
 
 # target to generate assembly for a file
-Scene.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Scene.cpp.s
-.PHONY : Scene.cpp.s
+Core-Dependencies/RayTracer.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/RayTracer.cpp.s
+.PHONY : Core-Dependencies/RayTracer.cpp.s
 
-Sphere.o: Sphere.cpp.o
+Core-Dependencies/Scene.o: Core-Dependencies/Scene.cpp.o
 
-.PHONY : Sphere.o
+.PHONY : Core-Dependencies/Scene.o
 
 # target to build an object file
-Sphere.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Sphere.cpp.o
-.PHONY : Sphere.cpp.o
+Core-Dependencies/Scene.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Scene.cpp.o
+.PHONY : Core-Dependencies/Scene.cpp.o
 
-Sphere.i: Sphere.cpp.i
+Core-Dependencies/Scene.i: Core-Dependencies/Scene.cpp.i
 
-.PHONY : Sphere.i
+.PHONY : Core-Dependencies/Scene.i
 
 # target to preprocess a source file
-Sphere.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Sphere.cpp.i
-.PHONY : Sphere.cpp.i
+Core-Dependencies/Scene.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Scene.cpp.i
+.PHONY : Core-Dependencies/Scene.cpp.i
 
-Sphere.s: Sphere.cpp.s
+Core-Dependencies/Scene.s: Core-Dependencies/Scene.cpp.s
 
-.PHONY : Sphere.s
+.PHONY : Core-Dependencies/Scene.s
 
 # target to generate assembly for a file
-Sphere.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Sphere.cpp.s
-.PHONY : Sphere.cpp.s
+Core-Dependencies/Scene.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Scene.cpp.s
+.PHONY : Core-Dependencies/Scene.cpp.s
 
-Vector.o: Vector.cpp.o
+Core-Dependencies/Vector.o: Core-Dependencies/Vector.cpp.o
 
-.PHONY : Vector.o
+.PHONY : Core-Dependencies/Vector.o
 
 # target to build an object file
-Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Vector.cpp.o
-.PHONY : Vector.cpp.o
+Core-Dependencies/Vector.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Vector.cpp.o
+.PHONY : Core-Dependencies/Vector.cpp.o
 
-Vector.i: Vector.cpp.i
+Core-Dependencies/Vector.i: Core-Dependencies/Vector.cpp.i
 
-.PHONY : Vector.i
+.PHONY : Core-Dependencies/Vector.i
 
 # target to preprocess a source file
-Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Vector.cpp.i
-.PHONY : Vector.cpp.i
+Core-Dependencies/Vector.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Vector.cpp.i
+.PHONY : Core-Dependencies/Vector.cpp.i
 
-Vector.s: Vector.cpp.s
+Core-Dependencies/Vector.s: Core-Dependencies/Vector.cpp.s
 
-.PHONY : Vector.s
+.PHONY : Core-Dependencies/Vector.s
 
 # target to generate assembly for a file
-Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Vector.cpp.s
-.PHONY : Vector.cpp.s
+Core-Dependencies/Vector.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Core-Dependencies/Vector.cpp.s
+.PHONY : Core-Dependencies/Vector.cpp.s
+
+Lights/PointLight.o: Lights/PointLight.cpp.o
+
+.PHONY : Lights/PointLight.o
+
+# target to build an object file
+Lights/PointLight.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o
+.PHONY : Lights/PointLight.cpp.o
+
+Lights/PointLight.i: Lights/PointLight.cpp.i
+
+.PHONY : Lights/PointLight.i
+
+# target to preprocess a source file
+Lights/PointLight.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.i
+.PHONY : Lights/PointLight.cpp.i
+
+Lights/PointLight.s: Lights/PointLight.cpp.s
+
+.PHONY : Lights/PointLight.s
+
+# target to generate assembly for a file
+Lights/PointLight.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.s
+.PHONY : Lights/PointLight.cpp.s
+
+Materials/Lambertian.o: Materials/Lambertian.cpp.o
+
+.PHONY : Materials/Lambertian.o
+
+# target to build an object file
+Materials/Lambertian.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.o
+.PHONY : Materials/Lambertian.cpp.o
+
+Materials/Lambertian.i: Materials/Lambertian.cpp.i
+
+.PHONY : Materials/Lambertian.i
+
+# target to preprocess a source file
+Materials/Lambertian.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.i
+.PHONY : Materials/Lambertian.cpp.i
+
+Materials/Lambertian.s: Materials/Lambertian.cpp.s
+
+.PHONY : Materials/Lambertian.s
+
+# target to generate assembly for a file
+Materials/Lambertian.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.s
+.PHONY : Materials/Lambertian.cpp.s
+
+Primitives/Sphere.o: Primitives/Sphere.cpp.o
+
+.PHONY : Primitives/Sphere.o
+
+# target to build an object file
+Primitives/Sphere.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.o
+.PHONY : Primitives/Sphere.cpp.o
+
+Primitives/Sphere.i: Primitives/Sphere.cpp.i
+
+.PHONY : Primitives/Sphere.i
+
+# target to preprocess a source file
+Primitives/Sphere.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.i
+.PHONY : Primitives/Sphere.cpp.i
+
+Primitives/Sphere.s: Primitives/Sphere.cpp.s
+
+.PHONY : Primitives/Sphere.s
+
+# target to generate assembly for a file
+Primitives/Sphere.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.s
+.PHONY : Primitives/Sphere.cpp.s
 
 main.o: main.cpp.o
 
@@ -456,39 +510,45 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... RayTracer"
-	@echo "... Camera.o"
-	@echo "... Camera.i"
-	@echo "... Camera.s"
-	@echo "... Film.o"
-	@echo "... Film.i"
-	@echo "... Film.s"
-	@echo "... Normal.o"
-	@echo "... Normal.i"
-	@echo "... Normal.s"
-	@echo "... PPMImage.o"
-	@echo "... PPMImage.i"
-	@echo "... PPMImage.s"
-	@echo "... Point2D.o"
-	@echo "... Point2D.i"
-	@echo "... Point2D.s"
-	@echo "... Point3D.o"
-	@echo "... Point3D.i"
-	@echo "... Point3D.s"
-	@echo "... Ray.o"
-	@echo "... Ray.i"
-	@echo "... Ray.s"
-	@echo "... RayTracer.o"
-	@echo "... RayTracer.i"
-	@echo "... RayTracer.s"
-	@echo "... Scene.o"
-	@echo "... Scene.i"
-	@echo "... Scene.s"
-	@echo "... Sphere.o"
-	@echo "... Sphere.i"
-	@echo "... Sphere.s"
-	@echo "... Vector.o"
-	@echo "... Vector.i"
-	@echo "... Vector.s"
+	@echo "... Core-Dependencies/Camera.o"
+	@echo "... Core-Dependencies/Camera.i"
+	@echo "... Core-Dependencies/Camera.s"
+	@echo "... Core-Dependencies/Film.o"
+	@echo "... Core-Dependencies/Film.i"
+	@echo "... Core-Dependencies/Film.s"
+	@echo "... Core-Dependencies/Normal.o"
+	@echo "... Core-Dependencies/Normal.i"
+	@echo "... Core-Dependencies/Normal.s"
+	@echo "... Core-Dependencies/PPMImage.o"
+	@echo "... Core-Dependencies/PPMImage.i"
+	@echo "... Core-Dependencies/PPMImage.s"
+	@echo "... Core-Dependencies/Point2D.o"
+	@echo "... Core-Dependencies/Point2D.i"
+	@echo "... Core-Dependencies/Point2D.s"
+	@echo "... Core-Dependencies/Point3D.o"
+	@echo "... Core-Dependencies/Point3D.i"
+	@echo "... Core-Dependencies/Point3D.s"
+	@echo "... Core-Dependencies/Ray.o"
+	@echo "... Core-Dependencies/Ray.i"
+	@echo "... Core-Dependencies/Ray.s"
+	@echo "... Core-Dependencies/RayTracer.o"
+	@echo "... Core-Dependencies/RayTracer.i"
+	@echo "... Core-Dependencies/RayTracer.s"
+	@echo "... Core-Dependencies/Scene.o"
+	@echo "... Core-Dependencies/Scene.i"
+	@echo "... Core-Dependencies/Scene.s"
+	@echo "... Core-Dependencies/Vector.o"
+	@echo "... Core-Dependencies/Vector.i"
+	@echo "... Core-Dependencies/Vector.s"
+	@echo "... Lights/PointLight.o"
+	@echo "... Lights/PointLight.i"
+	@echo "... Lights/PointLight.s"
+	@echo "... Materials/Lambertian.o"
+	@echo "... Materials/Lambertian.i"
+	@echo "... Materials/Lambertian.s"
+	@echo "... Primitives/Sphere.o"
+	@echo "... Primitives/Sphere.i"
+	@echo "... Primitives/Sphere.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

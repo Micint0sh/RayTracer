@@ -8,6 +8,8 @@
 #include "Camera.hpp"
 #include "RayTracer.hpp"
 #include "Film.hpp"
+#include "../Primitives/Primitive.hpp"
+#include "../Lights/Light.hpp"
 
 using namespace std;
 
@@ -23,6 +25,7 @@ public:
     void setUpFilm(Image& img);
     void setUpFilm(Image& img, string path);
     void newObject(Primitive* object);
+    void newLight(Light* light);
     void render();
 
 private:
@@ -35,6 +38,7 @@ private:
     Film* film;
     
     vector<Primitive*> objects;
+    vector<Light*> lights;
 };
 
 #endif /* SCENE_HPP */

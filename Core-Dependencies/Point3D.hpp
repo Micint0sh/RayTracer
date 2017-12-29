@@ -13,9 +13,10 @@ public:
     Point3D(double xVal, double yVal, double zVal);
     Point3D(const Point3D& p);
     //Operators
-    virtual Point3D operator +(const Point3D& p);
-    virtual Point3D operator -(const Point3D& p);
-    bool operator ==(const Point3D& p);
+    virtual Point3D operator +(const Point3D& p) const;
+    virtual Point3D operator -(const Point3D& p) const;
+    bool operator ==(const Point3D& p) const;
+    virtual Point3D operator +=(const Point3D& p);
     static double vectDot(const Point3D& v1, const Point3D& v2);
     static Point3D vectCross(const Point3D& v1, const Point3D& v2);
 };

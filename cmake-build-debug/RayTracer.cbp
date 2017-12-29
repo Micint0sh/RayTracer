@@ -82,94 +82,109 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/BRDF.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Camera.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Camera.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Camera.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Camera.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Color.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Color.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Film.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Film.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Film.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Film.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Image.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Image.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Intersection.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Intersection.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/LocalGeo.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/LocalGeo.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Normal.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Normal.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Normal.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Normal.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/PPMImage.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/PPMImage.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/PPMImage.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/PPMImage.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point2D.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point2D.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point2D.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point2D.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point3D.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point3D.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point3D.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Point3D.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Ray.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitive.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Ray.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Ray.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/RayTracer.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Ray.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/RayTracer.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/RayTracer.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Sample.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/RayTracer.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Sampler.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sample.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Scene.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sampler.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Scene.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Scene.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Vector.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Scene.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Vector.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sphere.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Sphere.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Lights/PointLight.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Vector.cpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Lights/PointLight.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
-		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Vector.hpp">
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/Material.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/main.cpp">
