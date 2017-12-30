@@ -420,6 +420,60 @@ Lights/PointLight.cpp.s:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.s
 .PHONY : Lights/PointLight.cpp.s
 
+Materials/BlinnPhong.o: Materials/BlinnPhong.cpp.o
+
+.PHONY : Materials/BlinnPhong.o
+
+# target to build an object file
+Materials/BlinnPhong.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o
+.PHONY : Materials/BlinnPhong.cpp.o
+
+Materials/BlinnPhong.i: Materials/BlinnPhong.cpp.i
+
+.PHONY : Materials/BlinnPhong.i
+
+# target to preprocess a source file
+Materials/BlinnPhong.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.i
+.PHONY : Materials/BlinnPhong.cpp.i
+
+Materials/BlinnPhong.s: Materials/BlinnPhong.cpp.s
+
+.PHONY : Materials/BlinnPhong.s
+
+# target to generate assembly for a file
+Materials/BlinnPhong.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.s
+.PHONY : Materials/BlinnPhong.cpp.s
+
+Materials/BlinnPhongWithAmbient.o: Materials/BlinnPhongWithAmbient.cpp.o
+
+.PHONY : Materials/BlinnPhongWithAmbient.o
+
+# target to build an object file
+Materials/BlinnPhongWithAmbient.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o
+.PHONY : Materials/BlinnPhongWithAmbient.cpp.o
+
+Materials/BlinnPhongWithAmbient.i: Materials/BlinnPhongWithAmbient.cpp.i
+
+.PHONY : Materials/BlinnPhongWithAmbient.i
+
+# target to preprocess a source file
+Materials/BlinnPhongWithAmbient.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.i
+.PHONY : Materials/BlinnPhongWithAmbient.cpp.i
+
+Materials/BlinnPhongWithAmbient.s: Materials/BlinnPhongWithAmbient.cpp.s
+
+.PHONY : Materials/BlinnPhongWithAmbient.s
+
+# target to generate assembly for a file
+Materials/BlinnPhongWithAmbient.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.s
+.PHONY : Materials/BlinnPhongWithAmbient.cpp.s
+
 Materials/Lambertian.o: Materials/Lambertian.cpp.o
 
 .PHONY : Materials/Lambertian.o
@@ -543,6 +597,12 @@ help:
 	@echo "... Lights/PointLight.o"
 	@echo "... Lights/PointLight.i"
 	@echo "... Lights/PointLight.s"
+	@echo "... Materials/BlinnPhong.o"
+	@echo "... Materials/BlinnPhong.i"
+	@echo "... Materials/BlinnPhong.s"
+	@echo "... Materials/BlinnPhongWithAmbient.o"
+	@echo "... Materials/BlinnPhongWithAmbient.i"
+	@echo "... Materials/BlinnPhongWithAmbient.s"
 	@echo "... Materials/Lambertian.o"
 	@echo "... Materials/Lambertian.i"
 	@echo "... Materials/Lambertian.s"

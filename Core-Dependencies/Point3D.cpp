@@ -30,6 +30,11 @@ Point3D Point3D::operator -(const Point3D& p) const{
     return temp;
 }
 
+Point3D Point3D::operator-() const {
+    Point3D temp(-x,-y,-z);
+    return temp;
+}
+
 bool Point3D::operator ==(const Point3D& p) const{
     if(x == p.x && y == p.y && z == p.z) return true;
     else return false;

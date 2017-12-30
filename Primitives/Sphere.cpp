@@ -30,6 +30,7 @@ bool Sphere::intersect(const Ray& ray, double& tValue, Intersection* in) {
         in->localGeo.pos = intersectPos;
         Normal norm(intersectPos - center);
         in->localGeo.norm = norm;
+        in->view = ray;
         return true;
     }
 }

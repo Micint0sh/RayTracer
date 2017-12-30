@@ -188,9 +188,31 @@ PointLight.hpp
 Light.hpp
 /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
 
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.cpp
+BlinnPhong.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
+vector
+-
+cmath
+-
+
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
+Lambertian.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.hpp
+
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.cpp
+BlinnPhongWithAmbient.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
+
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
+BlinnPhong.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
+
 /Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.cpp
 Lambertian.hpp
 /Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.hpp
+vector
+-
 ../Core-Dependencies/Point3D.hpp
 /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point3D.hpp
 
@@ -207,6 +229,8 @@ Material.hpp
 /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/LocalGeo.hpp
 ../Lights/Light.hpp
 /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
+../Core-Dependencies/Intersection.hpp
+/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Intersection.hpp
 
 /Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp
 ../Core-Dependencies/Ray.hpp
@@ -251,4 +275,8 @@ Materials/Lambertian.hpp
 /Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.hpp
 Lights/PointLight.hpp
 /Users/michael/Documents/Projects/RayTracer/Lights/PointLight.hpp
+Materials/BlinnPhong.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
+Materials/BlinnPhongWithAmbient.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
 

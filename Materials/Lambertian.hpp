@@ -5,14 +5,14 @@
 #include "../Core-Dependencies/Color.hpp"
 
 class Lambertian : public Material {
-private:
+protected:
     Color kd;
 
 public:
     //Constructor
     Lambertian();
     Lambertian(const Color& color);
-    Color getColor(const Light* light, const LocalGeo& geo);
+    Color getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter);
 };
 
 

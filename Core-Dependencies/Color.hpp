@@ -9,6 +9,7 @@ public:
     Color():Vector::Vector() {}
     Color(double r,double g,double b):Vector::Vector(r > 255 ? 255 :r ,g > 255 ? 255 : g,b > 255 ? 255 : b) {}
     Color(const Color& c):Vector(c) {}
+    Color(const Point3D& c): Vector::Vector(c.x> 255 ? 255 :c.x, c.y> 255 ? 255 :c.y,c.z> 255 ? 255 :c.z) {}
 
     //Getter and Setters
     void setR(double r) { x = r > 255? 255: r; }

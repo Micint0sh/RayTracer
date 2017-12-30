@@ -13,12 +13,7 @@ Color RayTracer::trace(const Ray& ray, double depth, vector<Primitive*>& objects
         if(objects[i]->intersect(ray, tValue, &intersect)) {
             if(tValue < minTValue)
             {
-                Color sumColor;
-                for(int j=0; j<lights.size(); j++) {
-                    Color tmp;
-                    tmp = intersect.primitive->getMaterial()->getColor(lights[j],intersect.localGeo);
-                    sumColor += tmp;
-                }
+                Color sumColor = intersect.primitive->getMaterial()->getColor(lights,objects,intersect);
                 pixelColor = sumColor;
             }
         }

@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RayTracer.dir/Core-Dependencies/Vector.cpp.o"
   "CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.o"
   "CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o"
+  "CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o"
+  "CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o"
   "RayTracer.pdb"
   "RayTracer"
 )

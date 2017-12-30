@@ -8,6 +8,7 @@ class Primitive;
 
 class Intersection {
 public:
+    Ray view;
     LocalGeo localGeo;
     Primitive* primitive;
 };

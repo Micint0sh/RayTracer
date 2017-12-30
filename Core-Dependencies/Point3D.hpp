@@ -15,6 +15,7 @@ public:
     //Operators
     virtual Point3D operator +(const Point3D& p) const;
     virtual Point3D operator -(const Point3D& p) const;
+    virtual Point3D operator -() const;
     bool operator ==(const Point3D& p) const;
     virtual Point3D operator +=(const Point3D& p);
     static double vectDot(const Point3D& v1, const Point3D& v2);

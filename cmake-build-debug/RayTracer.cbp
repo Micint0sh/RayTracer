@@ -169,6 +169,18 @@
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Lights/PointLight.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.cpp">
 			<Option target="RayTracer"/>
 		</Unit>

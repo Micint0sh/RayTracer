@@ -8,6 +8,9 @@
 
 using namespace std;
 
+class Material;
+class Intersection;
+
 class Primitive {
 public:
     Material* material = NULL;
