@@ -8,7 +8,7 @@
 
 class Material {
 public:
-    virtual Color getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter) = 0;
+    virtual Color getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth) = 0;
 };
 
 

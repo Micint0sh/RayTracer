@@ -13,7 +13,7 @@ BlinnPhongWithAmbient::BlinnPhongWithAmbient(const Color &cDiff, const Color &cS
     ambientColor = amb;
 }
 
-Color BlinnPhongWithAmbient::getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter) {
-    Color pixelColor = BlinnPhong::getColor(lights,objects,inter);
+Color BlinnPhongWithAmbient::getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth) {
+    Color pixelColor = BlinnPhong::getColor(lights,objects,inter,depth);
     return pixelColor + ambientColor;
 }

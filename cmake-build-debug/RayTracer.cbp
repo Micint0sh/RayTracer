@@ -169,6 +169,12 @@
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Lights/PointLight.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.cpp">
 			<Option target="RayTracer"/>
 		</Unit>
@@ -197,6 +203,12 @@
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.hpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp">
+			<Option target="RayTracer"/>
+		</Unit>
+		<Unit filename="/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.hpp">
 			<Option target="RayTracer"/>
 		</Unit>
 		<Unit filename="/Users/michael/Documents/Projects/RayTracer/main.cpp">

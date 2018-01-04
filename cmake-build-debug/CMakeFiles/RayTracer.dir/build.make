@@ -441,6 +441,54 @@ CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o.provides: CMakeFi
 CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o.provides.build: CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o
 
 
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: CMakeFiles/RayTracer.dir/flags.make
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Primitives/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o -c /Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp
+
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp > CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.i
+
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp -o CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.s
+
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.requires:
+
+.PHONY : CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.requires
+
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.provides: CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.provides.build
+.PHONY : CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.provides
+
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.provides.build: CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o
+
+
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: CMakeFiles/RayTracer.dir/flags.make
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/BRDF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o -c /Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp
+
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp > CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.i
+
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp -o CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.s
+
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.requires:
+
+.PHONY : CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.requires
+
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.provides: CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.provides.build
+.PHONY : CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.provides
+
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.provides.build: CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o
+
+
 # Object files for target RayTracer
 RayTracer_OBJECTS = \
 "CMakeFiles/RayTracer.dir/Core-Dependencies/Camera.cpp.o" \
@@ -458,7 +506,9 @@ RayTracer_OBJECTS = \
 "CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.o" \
 "CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o" \
 "CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o" \
-"CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o"
+"CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o" \
+"CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o" \
+"CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o"
 
 # External object files for target RayTracer
 RayTracer_EXTERNAL_OBJECTS =
@@ -479,9 +529,11 @@ RayTracer: CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.o
 RayTracer: CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o
 RayTracer: CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o
 RayTracer: CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o
+RayTracer: CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o
+RayTracer: CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o
 RayTracer: CMakeFiles/RayTracer.dir/build.make
 RayTracer: CMakeFiles/RayTracer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable RayTracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable RayTracer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RayTracer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -505,6 +557,8 @@ CMakeFiles/RayTracer.dir/requires: CMakeFiles/RayTracer.dir/Materials/Lambertian
 CMakeFiles/RayTracer.dir/requires: CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o.requires
 CMakeFiles/RayTracer.dir/requires: CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o.requires
 CMakeFiles/RayTracer.dir/requires: CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o.requires
+CMakeFiles/RayTracer.dir/requires: CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o.requires
+CMakeFiles/RayTracer.dir/requires: CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o.requires
 
 .PHONY : CMakeFiles/RayTracer.dir/requires
 

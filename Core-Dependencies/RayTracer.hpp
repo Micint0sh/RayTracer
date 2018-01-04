@@ -10,7 +10,7 @@ using namespace std;
 
 class RayTracer {
 public:
-    Color trace(const Ray& ray, double depth, vector<Primitive*>& objects, vector<Light*>& lights);
+    static Color trace(const Ray& ray, double depth, double rayLenghth, const vector<Primitive*>& objects, const vector<Light*>& lights);
 };
 
 #endif /* RAYTRACER_HPP */

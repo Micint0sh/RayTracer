@@ -420,6 +420,33 @@ Lights/PointLight.cpp.s:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.s
 .PHONY : Lights/PointLight.cpp.s
 
+Materials/BRDF.o: Materials/BRDF.cpp.o
+
+.PHONY : Materials/BRDF.o
+
+# target to build an object file
+Materials/BRDF.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o
+.PHONY : Materials/BRDF.cpp.o
+
+Materials/BRDF.i: Materials/BRDF.cpp.i
+
+.PHONY : Materials/BRDF.i
+
+# target to preprocess a source file
+Materials/BRDF.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.i
+.PHONY : Materials/BRDF.cpp.i
+
+Materials/BRDF.s: Materials/BRDF.cpp.s
+
+.PHONY : Materials/BRDF.s
+
+# target to generate assembly for a file
+Materials/BRDF.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.s
+.PHONY : Materials/BRDF.cpp.s
+
 Materials/BlinnPhong.o: Materials/BlinnPhong.cpp.o
 
 .PHONY : Materials/BlinnPhong.o
@@ -528,6 +555,33 @@ Primitives/Sphere.cpp.s:
 	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.s
 .PHONY : Primitives/Sphere.cpp.s
 
+Primitives/Triangle.o: Primitives/Triangle.cpp.o
+
+.PHONY : Primitives/Triangle.o
+
+# target to build an object file
+Primitives/Triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o
+.PHONY : Primitives/Triangle.cpp.o
+
+Primitives/Triangle.i: Primitives/Triangle.cpp.i
+
+.PHONY : Primitives/Triangle.i
+
+# target to preprocess a source file
+Primitives/Triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.i
+.PHONY : Primitives/Triangle.cpp.i
+
+Primitives/Triangle.s: Primitives/Triangle.cpp.s
+
+.PHONY : Primitives/Triangle.s
+
+# target to generate assembly for a file
+Primitives/Triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/RayTracer.dir/build.make CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.s
+.PHONY : Primitives/Triangle.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -597,6 +651,9 @@ help:
 	@echo "... Lights/PointLight.o"
 	@echo "... Lights/PointLight.i"
 	@echo "... Lights/PointLight.s"
+	@echo "... Materials/BRDF.o"
+	@echo "... Materials/BRDF.i"
+	@echo "... Materials/BRDF.s"
 	@echo "... Materials/BlinnPhong.o"
 	@echo "... Materials/BlinnPhong.i"
 	@echo "... Materials/BlinnPhong.s"
@@ -609,6 +666,9 @@ help:
 	@echo "... Primitives/Sphere.o"
 	@echo "... Primitives/Sphere.i"
 	@echo "... Primitives/Sphere.s"
+	@echo "... Primitives/Triangle.o"
+	@echo "... Primitives/Triangle.i"
+	@echo "... Primitives/Triangle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

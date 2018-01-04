@@ -15,10 +15,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Scene.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Core-Dependencies/Scene.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Vector.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Core-Dependencies/Vector.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/Lights/PointLight.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o"
+  "/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Materials/Lambertian.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.o"
+  "/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o"
   "/Users/michael/Documents/Projects/RayTracer/main.cpp" "/Users/michael/Documents/Projects/RayTracer/cmake-build-debug/CMakeFiles/RayTracer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

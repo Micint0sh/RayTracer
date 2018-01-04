@@ -10,7 +10,7 @@ Lambertian::Lambertian(const Color &color) {
 }
 
 //Lambertian
-Color Lambertian::getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter) {
+Color Lambertian::getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth) {
     Color pixelColor;
     for (int i = 0; i < lights.size(); i++) {
         Ray lightRay;

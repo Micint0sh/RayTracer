@@ -34,4 +34,4 @@ add_executable(RayTracer
         Primitives/Sphere.hpp
         Core-Dependencies/Vector.cpp
         Core-Dependencies/Vector.hpp
-        Materials/Material.hpp Materials/Lambertian.hpp Materials/Lambertian.cpp Lights/Light.hpp Lights/PointLight.cpp Lights/PointLight.hpp Materials/BlinnPhong.cpp Materials/BlinnPhong.hpp Materials/BlinnPhongWithAmbient.cpp Materials/BlinnPhongWithAmbient.hpp)
+        Materials/Material.hpp Materials/Lambertian.hpp Materials/Lambertian.cpp Lights/Light.hpp Lights/PointLight.cpp Lights/PointLight.hpp Materials/BlinnPhong.cpp Materials/BlinnPhong.hpp Materials/BlinnPhongWithAmbient.cpp Materials/BlinnPhongWithAmbient.hpp Primitives/Triangle.cpp Primitives/Triangle.hpp Materials/BRDF.cpp Materials/BRDF.hpp)

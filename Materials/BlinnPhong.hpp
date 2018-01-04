@@ -11,7 +11,7 @@ protected:
 public:
     BlinnPhong();
     BlinnPhong(const Color& cDiff, const Color& cSpec, double exp);
-    Color getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter);
+    Color getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth);
 
 };
 

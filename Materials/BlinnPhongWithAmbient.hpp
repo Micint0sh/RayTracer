@@ -13,7 +13,7 @@ private:
 public:
     BlinnPhongWithAmbient();
     BlinnPhongWithAmbient(const Color& cDiff, const Color& cSpec, double exp, const Color& amb);
-    Color getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter);
+    Color getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth);
 };
 
 

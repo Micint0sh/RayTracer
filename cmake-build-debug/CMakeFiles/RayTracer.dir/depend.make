@@ -88,6 +88,23 @@ CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o: ../Lights/Light.hpp
 CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o: ../Lights/PointLight.cpp
 CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o: ../Lights/PointLight.hpp
 
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/Color.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/Intersection.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/LocalGeo.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/Normal.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/Point3D.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/Ray.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/RayTracer.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Core-Dependencies/Vector.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Lights/Light.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/BRDF.cpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/BRDF.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/BlinnPhong.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/BlinnPhongWithAmbient.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/Lambertian.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Materials/Material.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o: ../Primitives/Primitive.hpp
+
 CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o: ../Core-Dependencies/Color.hpp
 CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o: ../Core-Dependencies/Intersection.hpp
 CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o: ../Core-Dependencies/LocalGeo.hpp
@@ -143,6 +160,19 @@ CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.o: ../Primitives/Primitive.hpp
 CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.o: ../Primitives/Sphere.cpp
 CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.o: ../Primitives/Sphere.hpp
 
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/Color.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/Intersection.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/LocalGeo.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/Normal.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/Point3D.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/Ray.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Core-Dependencies/Vector.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Lights/Light.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Materials/Material.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Primitives/Primitive.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Primitives/Triangle.cpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o: ../Primitives/Triangle.hpp
+
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Core-Dependencies/Camera.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Core-Dependencies/Color.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Core-Dependencies/Film.hpp
@@ -161,11 +191,13 @@ CMakeFiles/RayTracer.dir/main.cpp.o: ../Core-Dependencies/Scene.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Core-Dependencies/Vector.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Lights/Light.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Lights/PointLight.hpp
+CMakeFiles/RayTracer.dir/main.cpp.o: ../Materials/BRDF.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Materials/BlinnPhong.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Materials/BlinnPhongWithAmbient.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Materials/Lambertian.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Materials/Material.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Primitives/Primitive.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../Primitives/Sphere.hpp
+CMakeFiles/RayTracer.dir/main.cpp.o: ../Primitives/Triangle.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o: ../main.cpp
 

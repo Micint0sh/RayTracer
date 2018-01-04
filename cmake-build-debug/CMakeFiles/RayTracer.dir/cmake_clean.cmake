@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o"
   "CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o"
   "CMakeFiles/RayTracer.dir/Materials/BlinnPhongWithAmbient.cpp.o"
+  "CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o"
+  "CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o"
   "RayTracer.pdb"
   "RayTracer"
 )

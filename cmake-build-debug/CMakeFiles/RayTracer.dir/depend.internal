@@ -88,6 +88,23 @@ CMakeFiles/RayTracer.dir/Lights/PointLight.cpp.o
  /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
  /Users/michael/Documents/Projects/RayTracer/Lights/PointLight.cpp
  /Users/michael/Documents/Projects/RayTracer/Lights/PointLight.hpp
+CMakeFiles/RayTracer.dir/Materials/BRDF.cpp.o
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Color.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Intersection.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/LocalGeo.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Normal.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point3D.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Ray.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/RayTracer.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Vector.hpp
+ /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/BRDF.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/Material.hpp
+ /Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp
 CMakeFiles/RayTracer.dir/Materials/BlinnPhong.cpp.o
  /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Color.hpp
  /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Intersection.hpp
@@ -143,6 +160,19 @@ CMakeFiles/RayTracer.dir/Primitives/Sphere.cpp.o
  /Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp
  /Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.cpp
  /Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.hpp
+CMakeFiles/RayTracer.dir/Primitives/Triangle.cpp.o
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Color.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Intersection.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/LocalGeo.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Normal.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point3D.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Ray.hpp
+ /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Vector.hpp
+ /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/Material.hpp
+ /Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp
+ /Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp
+ /Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.hpp
 CMakeFiles/RayTracer.dir/main.cpp.o
  /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Camera.hpp
  /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Color.hpp
@@ -162,10 +192,12 @@ CMakeFiles/RayTracer.dir/main.cpp.o
  /Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Vector.hpp
  /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
  /Users/michael/Documents/Projects/RayTracer/Lights/PointLight.hpp
+ /Users/michael/Documents/Projects/RayTracer/Materials/BRDF.hpp
  /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
  /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
  /Users/michael/Documents/Projects/RayTracer/Materials/Lambertian.hpp
  /Users/michael/Documents/Projects/RayTracer/Materials/Material.hpp
  /Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp
  /Users/michael/Documents/Projects/RayTracer/Primitives/Sphere.hpp
+ /Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.hpp
  /Users/michael/Documents/Projects/RayTracer/main.cpp

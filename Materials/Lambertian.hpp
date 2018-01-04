@@ -12,7 +12,7 @@ public:
     //Constructor
     Lambertian();
     Lambertian(const Color& color);
-    Color getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter);
+    Color getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth);
 };
 
 

@@ -14,19 +14,7 @@ BlinnPhong::BlinnPhong(const Color &cDiff, const Color &cSpec, double exp) {
     phongExponent = exp;
 }
 
-Color BlinnPhong::getColor(const vector<Light*>& lights, vector<Primitive*>& objects, const Intersection& inter) {
-//    Color diffuseColor = Lambertian::getColor(lights, objects,inter);
-//    Ray lightRay;
-//    Color lightIntensity;
-//    light->generateLightRay(inter.localGeo,lightRay,lightIntensity);
-//    Vector half = lightRay.getDir()+viewDir;
-//    half.normalize();
-//    double specCoeff = Point3D::vectDot(inter.localGeo.norm,half);
-//    if(specCoeff < 0) specCoeff = 0;
-//    else specCoeff = pow(specCoeff,phongExponent);
-//    Color specColor(ks.getR()*lightIntensity.getR()*specCoeff,ks.getG()*lightIntensity.getG()*specCoeff,ks.getB()*lightIntensity.getB()*specCoeff);
-//    return specColor + diffuseColor;
-
+Color BlinnPhong::getColor(const vector<Light*>& lights, const vector<Primitive*>& objects, const Intersection& inter, double depth) {
     Color pixelColor;
     Vector viewDir = -inter.view.getDir();
     for (int i = 0; i < lights.size(); i++) {

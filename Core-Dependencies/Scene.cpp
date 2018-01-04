@@ -53,7 +53,7 @@ void Scene::render() {
         for (int j = 0; j < imageHeight; j++) {
             Sample sample = sampler.getSample(i,j);
             Ray cameraRay = camera->generateCameraRay(sample);
-            Color pixelColor = rayTracer->trace(cameraRay,1000,objects,lights);
+            Color pixelColor = rayTracer->trace(cameraRay,1000,1,objects,lights);
             film->commit(sample,pixelColor);
         }
     }

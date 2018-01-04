@@ -188,6 +188,16 @@ PointLight.hpp
 Light.hpp
 /Users/michael/Documents/Projects/RayTracer/Lights/Light.hpp
 
+/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.cpp
+BRDF.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.hpp
+../Core-Dependencies/RayTracer.hpp
+/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/RayTracer.hpp
+
+/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.hpp
+BlinnPhongWithAmbient.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
+
 /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.cpp
 BlinnPhong.hpp
 /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
@@ -262,6 +272,22 @@ Primitive.hpp
 ../Materials/Material.hpp
 /Users/michael/Documents/Projects/RayTracer/Materials/Material.hpp
 
+/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.cpp
+Triangle.hpp
+/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.hpp
+iostream
+-
+
+/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.hpp
+Primitive.hpp
+/Users/michael/Documents/Projects/RayTracer/Primitives/Primitive.hpp
+../Core-Dependencies/Point3D.hpp
+/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Point3D.hpp
+../Core-Dependencies/Ray.hpp
+/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Ray.hpp
+../Core-Dependencies/Intersection.hpp
+/Users/michael/Documents/Projects/RayTracer/Core-Dependencies/Intersection.hpp
+
 /Users/michael/Documents/Projects/RayTracer/main.cpp
 iostream
 -
@@ -279,4 +305,8 @@ Materials/BlinnPhong.hpp
 /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhong.hpp
 Materials/BlinnPhongWithAmbient.hpp
 /Users/michael/Documents/Projects/RayTracer/Materials/BlinnPhongWithAmbient.hpp
+Primitives/Triangle.hpp
+/Users/michael/Documents/Projects/RayTracer/Primitives/Triangle.hpp
+Materials/BRDF.hpp
+/Users/michael/Documents/Projects/RayTracer/Materials/BRDF.hpp
 
